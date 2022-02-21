@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+   
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+	"playwright": "^1.19.1"
+  }
+}
