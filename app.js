@@ -27,16 +27,13 @@ app.get('/:symbol/:pair/', function(req, res) {
 });
 
 
-
-
-
-
-
+/*
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
 
+*/
 
 
 const getInformation = async(data, res) => {
