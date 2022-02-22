@@ -4,6 +4,9 @@ const { chromium } = require ('playwright')
 var express = require('express');
 var app = express();
 
+const port = process.env.PORT || 3000;
+
+
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/:symbol/:pair/', function(req, res) {
 
@@ -26,7 +29,7 @@ app.get('/:symbol/:pair/', function(req, res) {
 });
 
 
-
+app.listen(port, () => console.log("Server is running in port " + port));
 
 
   
