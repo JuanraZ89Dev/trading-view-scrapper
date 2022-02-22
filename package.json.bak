@@ -9,7 +9,7 @@
   "description": "Tradingview price scrapper App",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,11 +17,11 @@
   },
   "author": "JuanraZ89",
   "license": "MIT",
-  "engines": {
+  "engines": {"node": "14"} 
 	  
-	  "node": "14.x"
 	  
-  }
+	  
+  
   "bugs": {
     "url": "https://github.com/JuanraZ89Dev/trading-view-scrapper/issues"
   },
