@@ -7,6 +7,22 @@ var app = express();
 const port = process.env.PORT || 3000;
 
 
+app.get('/', function (req, res) {
+
+    const data = {
+
+        status: 'success',
+        code: 200,
+        server_status: 'working'
+        
+
+    }
+
+    res.json(data)
+
+
+})
+
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/:symbol/:pair/', function(req, res) {
 
